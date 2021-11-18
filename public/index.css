@@ -3,21 +3,59 @@ body {
     padding: 0px;
 }
 
-
 #header-image img{
     object-fit: cover;
     height: 150px;
     width: 100%;
     margin: auto;
     margin-top: 0%;
+    filter: contrast(90%)
 }
 
 #image-text{
     position: absolute;
     top: 5%;
     left: 10%;
-    font-family: 'Roboto';
+    font-family: ui-rounded;
     color: rgb(254, 254, 254);
     transform: translate(-30%, -30%);
     text-align: center;
 }
+
+#nav-bar{
+    float: right;
+    width: 70%;
+    height: 100%;
+    margin: none;
+}
+#nav-bar ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    float: right;
+    margin: none;
+    background: #ffffff;
+}
+     
+#nav-bar li{
+    display: inline-block;
+    padding: none;
+    margin: none;
+
+}
+#nav-bar li a, #nav-bar li span{
+    display: inline-block;
+    padding: 0em 1.5em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 60px;
+}
+#nav-bar li:hover a, #nav-bar li span{
+    background: #FFF;
+    color: #000000;
+    border-left: 1px solid #ffffff;
+    text-decoration: none;
+}
+
